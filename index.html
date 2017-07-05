@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="main.css"
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,34 +19,37 @@
     <![endif]-->
   </head>
   <body>
+      <header>
+             <nav class="navbar navbar-default" id="header">
+                 <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                       <div class="navbar-header">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
 
-     <div class="container">
-       <nav class="navbar navbar-default" id="header">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+                          </button>
 
-        <a class="navbar-brand" href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.obHx3bAVSjngrJxh8n28qgEsEs&pid=15.1&P=0&w=300&h=300" height="35px" width="35px"></a>
-        </div>
+                         <a class="navbar-brand" href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.obHx3bAVSjngrJxh8n28qgEsEs&pid=15.1&P=0&w=300&h=300" height="35px" width="35px"></a>
+
+                    </div>
 
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-        <form class="navbar-form navbar-left">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-        </form>
+               <form class="navbar-form navbar-left">
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                 </div>
+                 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </form>
 
-        <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+               <!-- making the icon on the navbar -->
+
            <li><a class="white-text" href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.6ey7T79PD6mYRqgGuFf-egEsDh&pid=15.1&P=0&w=207&h=156" height="20px" width="20px">Sonia</a></li>
              <li><a class="white-text" href="#">Home</a></li>
               <li><a class="white-text" href="#">Find Friens</a></li>
@@ -75,307 +79,309 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-  </nav>
+          </nav>
+      </header>
 
-         <div class="row" id="wrapper">
-         <div class="hidden-xs col-sm-4 col-md-3"><div id="menu">
-              <ul class="nav nav-pills nav-stacked">
-                    <li role="presentation"><a href="#">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.6ey7T79PD6mYRqgGuFf-egEsDh&pid=15.1&P=0&w=207&h=156" height="18px" width="18px"> Sonia Saini</a></li>
 
-                <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.PiL8BlKqW0Mc5AzdM718QgCWCO&pid=15.1&P=0&w=150&h=142" height="18px" width="18px">News Feed <span class="badge">.....</span></a>
-          <li role="presentation"><a href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.zmZaRPVo8qwXpa6j_KRhbgEsEo&pid=15.1&rs=1&c=1&qlt=95&w=116&h=115" height="18px" width="18px">Messenger</a></li>
-           </ul>
+      <div class="container" id="wrapper">
+          <div class="row">
+                   <!-- row ko 3 column mein divide kiya ....page ko 3 hinde mein divide krne k liye -->
+                    <div class="hidden-xs col-sm-4 col-md-3">
+                         <div id="menu">
+                          <!-- it's first column -->
 
-           <ul class="nav nav-pills nav-stacked">
-              <p class="list-heading">Shortcuts</p>
-                    <li role="presentation"><a href="#">
-                      <img src="https://sp.yimg.com/ib/th?id=OIP.0D79s67QwJ0hiyea8QgnwAEsEs&pid=15.1&rs=1&c=1&qlt=95&w=114&h=114" height="18px" width="18px">Candy Crush</a></li>
+                    <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation"><a href="#">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.6ey7T79PD6mYRqgGuFf-egEsDh&pid=15.1&P=0&w=207&h=156" height="18px" width="18px"> Sonia Saini</a></li>
+                            <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.PiL8BlKqW0Mc5AzdM718QgCWCO&pid=15.1&P=0&w=150&h=142" height="18px" width="18px">News Feed <span class="badge">.....</span></a>
+                            <li role="presentation"><a href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.zmZaRPVo8qwXpa6j_KRhbgEsEo&pid=15.1&rs=1&c=1&qlt=95&w=116&h=115" height="18px" width="18px">Messenger</a>
+                           </li>
+                  </ul>
+
+                 <ul class="nav nav-pills nav-stacked">
+                        <p class="list-heading">Shortcuts</p>
+                        <li role="presentation"><a href="#">
+                         <img src="https://sp.yimg.com/ib/th?id=OIP.0D79s67QwJ0hiyea8QgnwAEsEs&pid=15.1&rs=1&c=1&qlt=95&w=114&h=114" height="18px" width="18px">Candy Crush</a></li>
                  </ul>
 
 
-           <ul class="nav nav-pills nav-stacked">
-              <p class="list-heading">Explore</p>
-                    <li role="presentation"><a href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.SHfSsQYcN96ajzT1MyUmQwEsEs&pid=15.1&rs=1&c=1&qlt=95&w=115&h=115" height="18px" width="18px">Groups <span class="badge">12</span></a></li>
-                    <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.xudcR6vyjpSFGKv40v15dQEsEs&pid=15.1&P=0&w=300&h=300" height="18px" width="18px">Events <span class="badge">2</span></a></li>
-                    <li role="presentation"><a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.m8Iio47iZwnPIRekoWV4bwCACA&pid=15.1&P=0&w=300&h=300" height="18px" width="18px">Pages</a></li>
-                    <li role="presentation"><a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.2ML2bePcO0rkHC19DixUfQEsEq&pid=15.1&P=0&w=161&h=161" height="25px" width="25px">Saved <span class="badge">5</span></a></li>
-                    <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.XCmKxqPX-EdDetZi9NccvwDhDh&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Friend Lists</a></li>
+                 <ul class="nav nav-pills nav-stacked">
+                          <p class="list-heading">Explore</p>
+                          <li role="presentation"><a href="#"><img src="https://sp.yimg.com/ib/th?id=OIP.SHfSsQYcN96ajzT1MyUmQwEsEs&pid=15.1&rs=1&c=1&qlt=95&w=115&h=115" height="18px" width="18px">Groups <span class="badge">12</span></a></li>
+                          <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.xudcR6vyjpSFGKv40v15dQEsEs&pid=15.1&P=0&w=300&h=300" height="18px" width="18px">Events<span class="badge">2</span></a></li>
+                          <li role="presentation"><a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.m8Iio47iZwnPIRekoWV4bwCACA&pid=15.1&P=0&w=300&h=300" height="18px" width="18px">Pages</a></li>
+                          <li role="presentation"><a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.2ML2bePcO0rkHC19DixUfQEsEq&pid=15.1&P=0&w=161&h=161" height="25px" width="25px">Saved <span class="badge">5</span></a></li>
+                          <li role="presentation"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.XCmKxqPX-EdDetZi9NccvwDhDh&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Friend Lists</a></li>
                </ul>
-           </div></div>
-           <div class="color-xs-12 col-md-8 col-md-6"><div id="main">
-                 <div class="panel panel-default">
-                   <div class="panel-heading">
-                    <h3 class="panel-title"><a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.7szQguzWCc-b0AvurHI29gDIDI&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Create a post
-                      <img src="https://tse1.mm.bing.net/th?id=OIP._tatdZ12zYetJv8EvtDA1ABgBg&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Photo/video Album
-                  <img src="https://tse2.mm.bing.net/th?id=OIP.bgpIidS1kAdUElCFR8hEwgEsDm&pid=15.1&P=0&w=208&h=161" height="17px" width="17px">Live Video </a></h3>
-              </div>
-              <div class="panel-body">
-
-                <a class="navbar-brand" href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.6ey7T79PD6mYRqgGuFf-egEsDh&pid=15.1&P=0&w=207&h=156" height="35px" width="35px">
-                 </a>
-                  What's on your mind?
-            </div>
-
-          <div class="panel-footer">
-               <img src="https://cdn3.iconfinder.com/data/icons/simplius-pack/512/photo-512.png" height="17px" width="17px">Photo/video
-               <img src="https://tse2.mm.bing.net/th?id=OIP.bY3pIKHiw3CS3_3fQfwh7QEAEA&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Feeling/Activity
-              <span class="badge">.....</span>
-          </div>
-          </div>
-
-
-
-          <div class="panel panel-default">
-                 <div class="panel-heading">
-             <h3 class="panel-title"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Funny Jokes</a></h3></div>
-          <div class="panel-body">
-          <div>
-          <Blockquote>
-              <p>Teacher: What exactly is MATH?<br><br>
-                Boy: Mental Abuse To Humans.</p>
-              <footer>Sonia</footer>
-            </Blockquote>
-          </div>
-
-          <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a></div>
-
-
-          <!-- added comment section     -->
-             <div class="media">
-                <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-9/16806964_121898281663541_3089960575894246758_n.jpg?oh=a57e5d7bd37f740f0ee84a3c2d2d4b97&oe=59C924ED" height="28px" width="28px" alt="..">
-          </a>
-        </div>
-
-        <div class="media-body">
-          <p class="comment"><span><a href="">Kajal</a></span> <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">hahahaha</p>
-
-         <div>
-            <small>
-              <span><a href="#">Like</a></span>
-                <span><a href="#">Comment</a></span>
-              <span><a href="#">Share</a></span>
-            </small>
-        </div>
-
-        </div>
-
-        <div class="media">
-           <div class="media-left">
-      <a href="#">
-       <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-1/p160x160/17523078_1137238836405077_7947788483834634064_n.jpg?oh=87e45f21475dd46a57b1157d2d595b9f&oe=59D477F3" height="28px" width="28px"alt="..">
-      </a>
-      </div>
-      <div class="media-body">
-      <p class="comment"><span><a href="">Mandeep</a></span> <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">
-        <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px"></p>
-
-      <div>
-       <small>
-         <span><a href="#">Like</a></span>
-           <span><a href="#">Comment</a></span>
-          <span><a href="#">Share</a></span>
-       </small>
-      </div>
-
-      </div>
-      </div>
-      <input placeholder="Write a comment....." style="width: 100%;margin-top: 15px;">
-       </div>
-    </div>
-
-<div class="panel panel-default">
-             <div class="panel-heading">
-            <h3 class="panel-title"><a href="#">Funny Jokes</a></h3></div>
-             <div class="panel-body">
-          <div>
-               <img src="https://tse2.mm.bing.net/th?id=OIP.w1pgz7Rw-4Leyy9f1LqaBgEsDl&pid=15.1&P=0&w=207&h=159s"class="img-responsive" alt="responsive image height="500px" width="500px">
-          </div>
-
-       <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-     <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-     <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a></div>
-     <div class="panel-footer">
-
-    <!-- added comment section     -->
-       <div class="media">
-          <div class="media-left">
-    <a href="#">
-        <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-0/s370x247/12541030_155936304778836_6793519765527257362_n.jpg?oh=7ea2b41ad8d2164f67ea4d051c630e75&oe=5A03B93B" height="28px" width="28px" alt="..">
-    </a>
-  </div>
-
-  <div class="media-body">
-    <p class="comment"><span><a href="">Anoop</a></span> hehehehe...</p>
-
-   <div>
-      <small>
-        <span><a href="#">Like</a></span>
-          <span><a href="#">Comment</a></span>
-        <span><a href="#">Share</a></span>
-      </small>
-  </div>
-
-  </div>
-
-  <div class="media">
-     <div class="media-left">
-      <a href="#">
-       <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/17190664_1172873356145004_3875840367875377761_n.jpg?oh=9091a7c83d5909099d74090d9ce5a8c0&oe=59D1FF25" height="28px" width="28px"alt="..">
-     </a>
-  </div>
-
-<div class="media-body">
-    <p class="comment"><span><a href="">Shubham</a></span> <img src="https://tse2.mm.bing.net/th?id=OIP.YhvZZDLVG9Jx_BUMdDTlrwD6D6&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">
-    <img src="https://tse2.mm.bing.net/th?id=OIP.YhvZZDLVG9Jx_BUMdDTlrwD6D6&pid=15.1&P=0&w=300&h=300" height="17px" width="17px"></p>
- <div>
- <small>
-   <span><a href="#">Like</a></span>
-     <span><a href="#">Comment</a></span>
-   <span><a href="#">Share</a></span>
- </small>
-</div>
-
-</div>
-</div>
-<input placeholder="Write a comment....." style="width: 100%;margin-top: 15px;">
-</div>
-</div>
-     </div>
-     </div></div>
-
-
-
-
-     <div class="hidden-xs hidden-sm col-md-3">
-         <div id="sidebar">
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation"><a href="#bday" aria-controls="bday" role="tab" data-toggle="tab" > Say Happy B'day to.....<i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i></a></li>
-             </ul>
-
-   <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="bday">
-          <div class="list-group list-group-item">
-            <h4 class="list-group-item-heading">
-              <a href="#" ><img src="https://tse2.mm.bing.net/th?id=OIP.fcIX0tNWdcHh0v-9Fo2WEADIEs&pid=15.1&P=0&w=300&h=300" height="32px" width="32px" class="profile-image img-circle">kajal</a></h4>
-    </div></div></div>
-
-   <ul class="nav nav-tabs" role="tablist">
-     <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab" data-toggle="tooltip" title="trends"><i class="fa fa-line-chart " aria-hidden="true"></i></a></li>
-         <li role="presentation"><a href="#Politics" aria-controls="profile" role="tab" data-toggle="tab" data-toggle="tooltip" title="Politics"><i class="fa fa-university"  aria-hidden="true"></i></a></li>
-               <li role="presentation"><a href="#Science" aria-controls="messages" role="tab" data-toggle="tab"data-toggle="tooltip" title="Science and Technology"><i class="fa fa-flask " aria-hidden="true"></i></a></li>
-         <li role="presentation"><a href="#Sports" aria-controls="messages" role="tab" data-toggle="tab"data-toggle="tooltip" title="Sports"><i class="fa fa-futbol-o " aria-hidden="true"></i></a></li>
-     <li role="presentation"><a href="#Entertainment" aria-controls="messages" role="tab" data-toggle="tab" data-toggle="tooltip" title="Entertainment"><i class="fa fa-film " aria-hidden="true"></i></a></li>
-   </ul>
-
-    <!-- Tab panes -->
-      <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="top">
-            <div class="list-group list-group-item">
-               <h4 class="list-group-item-heading"><a href="http://www.msn.com/en-in/money/topstories/gst-impact-on-health-sector-new-tax-regime-will-be-a-boon-for-diagnostics-sector/ar-BBDJFpg">Goods and Service Tax</a></h4>
-                 <p class="list-group-item-text">The passing of the GST (Goods and Services Tax) Bill and its enactment on July 1, 2017 has grabbed the attention across all sectors in the country. It would benefit most of the sectors and make the taxation process easier as it will replace a number of different taxes and duties. </p>
-               <h4 class="list-group-item-heading"><a href="#">Aadhar</a></h4>
-             <p class="list-group-item-text">Just a day remains before you can link Aadhaar with your PAN card . If you don't do it, your PAN card will technically become invalid from July 1. Despite concerns over the security of Aadhaar Cards, Prime Minister Narendra Modi-led BJP government has stuck by its decision to make Aadhaar mandatory.</p>
-          <h4 class="list-group-item-heading"><a href="#">Bhutan-India Border</a></h4>
-       <p class="list-group-item-text">The independence of Bhutan has endured for centuries, and the territory was never colonized in its history. Situated on the ancient Silk Road between Tibet, the Indian subcontinent and Southeast Asia, the Bhutanese state developed a distinct national identity based on Buddhism.</p>
-     <h4 class="list-group-item-heading"><a href="http://www.reuters.com/article/us-usa-immigration-travelban-idUSKBN19P082">Trump Travel Ban</a></h4>
-   <p class="list-group-item-text">The administration of U.S. President Donald Trump opposed opening the door to grandparents from six Muslim-majority countries on Monday, arguing in a court filing that the government's interpretation of how to implement its temporary travel ban is based on U.S. immigration law.
-
-</p>
-  </div>
- </div>
-
-     <div role="tabpanel" class="tab-pane" id="Politics">
-            <div class="list-group list-group-item">
-                    <h4 class="list-group-item-heading"><a href="#">Nawaz Sharif</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-                     <h4 class="list-group-item-heading"><a href="#">Meira Kumar</a></h4>
-           <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-    </div>
-     </div>
- <div role="tabpanel" class="tab-pane" id="Science">
-
-                    <div class="list-group list-group-item">
-
-                         <h4 class="list-group-item-heading"><a href="#">Facebook</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-
-                         <h4 class="list-group-item-heading"><a href="#">Uber</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-
-
-                         <h4 class="list-group-item-heading"><a href="#">Android</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjghg</p>
-
-
-
-                    </div></div>
-
-                <div role="tabpanel" class="tab-pane" id="Sports">
-                    <div class="list-group list-group-item">
-
-                         <h4 class="list-group-item-heading"><a href="#">Sri Lanka vs. Zimbabwe</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-
-                         <h4 class="list-group-item-heading"><a href="#">Cricket Australia</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-                    </div>
-                </div>
-
-                <div role="tabpanel" class="tab-pane" id="Entertainment">
-                    <div class="list-group list-group-item">
-
-                         <h4 class="list-group-item-heading"><a href="#">Shah Rukh Khan</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-
-                         <h4 class="list-group-item-heading"><a href="#">Tubelight</a></h4>
-                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
-
-
-
-                         <h4 class="list-group-item-heading"><a href="#">Baby driver</a></h4>
-                        <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjghg</p>
-                    </div>
-                </div>
+           </div>
              </div>
 
-            </div>
- </div>
+
+          <div class="color-xs-12 col-md-8 col-md-6">
+               <div id="main">
+                <!-- second column  -->
+
+                         <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                      <h3 class="panel-title"><a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.7szQguzWCc-b0AvurHI29gDIDI&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Create a post
+                                      <img src="https://tse1.mm.bing.net/th?id=OIP._tatdZ12zYetJv8EvtDA1ABgBg&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Photo/video Album
+                                       <img src="https://tse2.mm.bing.net/th?id=OIP.bgpIidS1kAdUElCFR8hEwgEsDm&pid=15.1&P=0&w=208&h=161" height="17px" width="17px">Live Video </a></h3>
+                                 </div>
+                                <div class="panel-body">
+
+                                        <a class="navbar-brand" href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.6ey7T79PD6mYRqgGuFf-egEsDh&pid=15.1&P=0&w=207&h=156" height="35px" width="35px">
+                                        </a>
+                                        What's on your mind?
+                                </div>
+
+                                <div class="panel-footer">
+                                        <img src="https://cdn3.iconfinder.com/data/icons/simplius-pack/512/photo-512.png" height="17px" width="17px">Photo/video
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.bY3pIKHiw3CS3_3fQfwh7QEAEA&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Feeling/Activity
+                                         <span class="badge">.....</span>
+                                 </div>
+                          </div>
+
+                         <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                       <h3 class="panel-title"><a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">Funny Jokes</a></h3></div>
+                                 <div class="panel-body">
+                                       <div>
+                                           <Blockquote>
+                                                  <p>Teacher: What exactly is MATH?<br><br>
+                                                       Boy: Mental Abuse To Humans.</p>
+                                                    <footer>Sonia</footer>
+                                           </Blockquote>
+                                        </div>
+
+                                         <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                                         <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                                         <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+                                 </div>
+
+                                        <div class="panel-footer">
+                                         <!-- added comment section     -->
+                                           <div class="media">
+                                                 <div class="media-left">
+                                                        <a href="#">
+                                                        <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-9/16806964_121898281663541_3089960575894246758_n.jpg?oh=a57e5d7bd37f740f0ee84a3c2d2d4b97&oe=59C924ED" height="28px" width="28px" alt="..">
+                                                         </a>
+                                                </div>
+
+                                                <div class="media-body">
+                                                       <p class="comment"><span><a href="">Kajal</a></span> <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">hahahaha</p>
+
+                                                       <div>
+                                                        <small>
+                                                        <span><a href="#">Like</a></span>
+                                                        <span><a href="#">Comment</a></span>
+                                                        <span><a href="#">Share</a></span>
+                                                        </small>
+                                                      </div>
+
+                                               </div></div>
+
+                                             <div class="media">
+                                                  <div class="media-left">
+                                                     <a href="#">
+                                                         <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-1/p160x160/17523078_1137238836405077_7947788483834634064_n.jpg?oh=87e45f21475dd46a57b1157d2d595b9f&oe=59D477F3" height="28px" width="28px"alt="..">
+                                                      </a>
+                                                  </div>
+                                                   <div class="media-body">
+                                                          <p class="comment"><span><a href="">Mandeep</a></span> <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">
+                                                         <img src="https://tse1.mm.bing.net/th?id=OIP.3S0uf2lZZ1wOxSv_5D6fOgEsEs&pid=15.1&P=0&w=300&h=300" height="17px" width="17px"></p>
+
+                                                   <div>
+                                                      <small>
+                                                            <span><a href="#">Like</a></span>
+                                                            <span><a href="#">Comment</a></span>
+                                                             <span><a href="#">Share</a></span>
+                                                       </small>
+                                                  </div>
+
+                                                 </div>
+                                             </div>
+                                         <input placeholder="Write a comment....." style="width: 100%;margin-top: 15px;">
+
+                             </div></div>
+
+                                  <div class="panel panel-default">
+                                         <div class="panel-heading">
+                                               <h3 class="panel-title"><a href="#">Funny Jokes</a>
+                                               </h3>
+                                                 3 hrs <img src="https://tse2.mm.bing.net/th?id=OIP.YhvZZDLVG9Jx_BUMdDTlrwD6D6&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">
+                                        </div>
 
 
+                                        <div class="panel-body">
+                                             <div>
+                                                  <center><img src="https://tse2.mm.bing.net/th?id=OIP.w1pgz7Rw-4Leyy9f1LqaBgEsDl&pid=15.1&P=0&w=207&h=159s"class="img-responsive" alt="responsive image" height="500 px" width="500 px">
+                                                 </center>
+                                              </div>
+
+                                               <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                                               <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                                               <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+                                      </div>
+
+                                        <div class="panel-footer">
+
+                                              <!-- added comment section     -->
+                                               <div class="media">
+                                                     <div class="media-left">
+                                                           <a href="#">
+                                                           <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-0/s370x247/12541030_155936304778836_6793519765527257362_n.jpg?oh=7ea2b41ad8d2164f67ea4d051c630e75&oe=5A03B93B" height="28px" width="28px" alt="..">
+                                                            </a>
+                                                       </div>
+
+                                                     <div class="media-body">
+                                                           <p class="comment"><span><a href="">Anoop</a></span> hehehehe...</p>
+
+                                                             <div>
+                                                                 <small>
+                                                                 <span><a href="#">Like</a></span>
+                                                                    <span><a href="#">Comment</a></span>
+                                                                   <span><a href="#">Share</a></span>
+                                                                 </small>
+                                                              </div>
+                                                        </div>
+                                                 </div>
+
+                                                <div class="media">
+                                                     <div class="media-left">
+                                                         <a href="#">
+                                                         <img class="media-object" src="https://scontent.fdel2-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/17190664_1172873356145004_3875840367875377761_n.jpg?oh=9091a7c83d5909099d74090d9ce5a8c0&oe=59D1FF25" height="28px" width="28px"alt="..">
+                                                          </a>
+                                                        </div>
+
+                                                       <div class="media-body">
+                                                             <p class="comment"><span><a href="">Shubham</a></span> <img src="https://tse2.mm.bing.net/th?id=OIP.YhvZZDLVG9Jx_BUMdDTlrwD6D6&pid=15.1&P=0&w=300&h=300" height="17px" width="17px">
+                                                              <img src="https://tse2.mm.bing.net/th?id=OIP.YhvZZDLVG9Jx_BUMdDTlrwD6D6&pid=15.1&P=0&w=300&h=300" height="17px" width="17px"></p>
+                                                               <div>
+                                                                   <small>
+                                                                    <span><a href="#">Like</a></span>
+                                                                    <span><a href="#">Comment</a></span>
+                                                                    <span><a href="#">Share</a></span>
+                                                                   </small>
+                                                               </div>
+
+                                                          </div>
+                                                    </div>
+                                          <input placeholder="Write a comment....." style="width: 100%;margin-top: 15px;">
+
+                                 </div>
+                         </div>
+                </div>
+           </div>
+
+
+          <div class="hidden-xs hidden-sm col-md-3">
+               <!-- third column -->
+
+                   <div id="sidebar">
+                        <ul class="nav nav-tabs" role="tablist">
+                         <li role="presentation"><a href="#bday" aria-controls="bday" role="tab" data-toggle="tab" > Say Happy B'day to.....<i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i></a></li>
+                        </ul>
+
+                         <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="bday">
+                                    <div class="list-group list-group-item">
+                                         <h4 class="list-group-item-heading">
+                                          <a href="#" ><img src="https://tse2.mm.bing.net/th?id=OIP.fcIX0tNWdcHh0v-9Fo2WEADIEs&pid=15.1&P=0&w=300&h=300" height="32px" width="32px" class="profile-image img-circle">kajal</a></h4>
+                                   </div>
+                               </div>
+                         </div>
+
+                      <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab" data-toggle="tooltip" title="trends"><i class="fa fa-line-chart " aria-hidden="true"></i></a></li>
+                      <li role="presentation"><a href="#Politics" aria-controls="profile" role="tab" data-toggle="tab" data-toggle="tooltip" title="Politics"><i class="fa fa-university"  aria-hidden="true"></i></a></li>
+                      <li role="presentation"><a href="#Science" aria-controls="messages" role="tab" data-toggle="tab"data-toggle="tooltip" title="Science and Technology"><i class="fa fa-flask " aria-hidden="true"></i></a></li>
+                      <li role="presentation"><a href="#Sports" aria-controls="messages" role="tab" data-toggle="tab"data-toggle="tooltip" title="Sports"><i class="fa fa-futbol-o " aria-hidden="true"></i></a></li>
+                      <li role="presentation"><a href="#Entertainment" aria-controls="messages" role="tab" data-toggle="tab" data-toggle="tooltip" title="Entertainment"><i class="fa fa-film " aria-hidden="true"></i></a></li>
+                     </ul>
+
+                      <!-- Tab panes -->
+                     <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="top">
+                            <div class="list-group list-group-item">
+
+                                 <h4 class="list-group-item-heading"><a href="https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)">Goods and Service Tax</a></h4>
+                                     <p class="list-group-item-text">Goods and Services Tax (GST) is an indirect tax applicable throughout India which replaced multiple cascading taxes levied by the central and state governments. It was introduced as The Constitution (One Hundred and First Amendment) Act 2017,[1] following the passage of Constitution 122nd Amendment Bill.</p>
+
+
+                                 <h4 class="list-group-item-heading"><a href="http://gadgets.ndtv.com/internet/news/income-tax-department-launches-new-e-facility-to-link-aadhaar-with-pan-1692662">Aadhar</a></h4>
+                                     <p class="list-group-item-text">The Income Tax department has launched a new e-facility to link a person's Aadhaar with the Permanent Account Number (PAN).</p>
+
+
+
+
+                                 <h4 class="list-group-item-heading"><a href="http://edition.cnn.com/2017/07/03/asia/bhutan-india-border-dispute/index.html">Bhutan-India Border</a></h4>
+                                 <p class="list-group-item-text">"The area in contention is extremely close to a very vulnerable stretch of Indian territory.
+                                    </p>
+
+
+                                 <h4 class="list-group-item-heading"><a href="http://www.record-bee.com/opinion/20170704/trump-travel-ban-makes-no-sense-and-neither-does-supreme-court-ruling">Trump Travel Ban</a></h4>
+                                 <p class="list-group-item-text">President Trump’s travel ban never made sense.
+
+                                 </p>
+
+                            </div>
+                        </div>
+
+
+
+                        <div role="tabpanel" class="tab-pane" id="Politics">
+                              <div class="list-group list-group-item">
+                                   <h4 class="list-group-item-heading"><a href="#">Nawaz Sharif</a></h4>
+                                    <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                    <h4 class="list-group-item-heading"><a href="#">Meira Kumar</a></h4>
+                                    <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                             </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Science">
+
+                              <div class="list-group list-group-item">
+
+                                      <h4 class="list-group-item-heading"><a href="#">Facebook</a></h4>
+                                      <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                      <h4 class="list-group-item-heading"><a href="#">Uber</a></h4>
+                                      <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                      <h4 class="list-group-item-heading"><a href="#">Android</a></h4>
+                                    <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjghg</p>
+                              </div>
+                         </div>
+
+                          <div role="tabpanel" class="tab-pane" id="Sports">
+                               <div class="list-group list-group-item">
+
+                                       <h4 class="list-group-item-heading"><a href="#">Sri Lanka vs. Zimbabwe</a></h4>
+                                        <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                        <h4 class="list-group-item-heading"><a href="#">Cricket Australia</a></h4>
+                                         <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+
+                               </div>
+                         </div>
+
+                       <div role="tabpanel" class="tab-pane" id="Entertainment">
+                                <div class="list-group list-group-item">
+                                       <h4 class="list-group-item-heading"><a href="#">Shah Rukh Khan</a></h4>
+                                       <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                       <h4 class="list-group-item-heading"><a href="#">Tubelight</a></h4>
+                                       <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjg</p>
+                                       <h4 class="list-group-item-heading"><a href="#">Baby driver</a></h4>
+                                       <p class="list-group-item-text">jkklkgjgujhihnmgnvhggjghgbjjghg</p>
+                               </div>
+                      </div>
+             </div>
+
+        </div>
+      </div>
+    </div>
 </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
    <footer>
+    <!-- making a footer -->
+
      <ul class="nav nav-pills pull-right">
        <li role="presentation"><a href="#">About Us</a></li>
        <li role="presentation"><a href="#">Home</a></li>
@@ -385,5 +391,10 @@
        <li role="presentation"><a href="#">Ad Choices</a></li>
 </ul>
 </footer>
+       <script src="jquery-3.2.1.min.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

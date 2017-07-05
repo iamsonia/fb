@@ -1,36 +1,13 @@
-
-
-header
-{
-     background-color: #4267b2;
-     height: 30px;
-   }
-
-   'row
-   {
-
- margin-top: 10px;
-
-   }
-
-
-#wrapper
-{
-   margin-top: 16px;
-   margin-bottom: 16px;
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
 }
-
-#main::-webkit-scrollbar
-{
-display: none;
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
 }
-
-#menu, #main, #sidebar
-{
-     height: 1225px;
-     background-color: #e9ebee;
-}
-
 #header
 {
 
@@ -38,6 +15,51 @@ display: none;
     color: white;
 
   }
+
+
+#wrapper
+{
+   margin-top: 16px;
+   margin-bottom: 16px;
+}
+.col-4 {
+  background-color: #DDD;
+  width: 33.33%;
+  border-right: 1px solid black;
+    display:inline-block;
+    padding: 4px;
+}
+
+
+#main {
+    overflow: auto;
+    margin: -10px;
+}
+
+#menu
+{
+    margin: -10px;
+
+}
+#sidebar{
+    overflow: auto;
+}
+#main::-webkit-scrollbar
+{
+display: none;
+}
+
+#menu,
+#main,
+#sidebar
+{
+     height: 600px;
+     background-color: #e9ebee;
+}
+
+#bs-example-navbar-collapse-1{
+    background-color: #3b5998;
+}
 
 .white-text
 {
@@ -66,15 +88,17 @@ display: none;
     margin-bottom: 15px;
     margin-top: 0px;
 }
-
-
-
-.navbar-form .form-control
-{
-width: 450px;
+.image-post {
+    margin-bottom: 15px;
 }
+
+
+
 
 .comment
 {
   margin: 0px;
+}
+.navbar-right{
+    margin:2px;
 }
